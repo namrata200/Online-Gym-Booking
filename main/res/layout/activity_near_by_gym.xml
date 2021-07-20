@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.gym.activity.NearByGymActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nearButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="Click to view near by Gyms" />
+
+            <Button
+                android:id="@+id/allButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="Click to view all Gyms" />
+
+            <EditText
+                android:id="@+id/startYearlyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Starting Range(Yearly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endYearlyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Ending Range(Yearly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/startMonthlyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Starting Range(Monthly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endMonthlyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Ending Range(Monthly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/startWeeklyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Starting Range(Weekly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endWeeklyRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Ending Range(Weekly Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/startOneRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Starting Range(One Day Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endOneRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Ending Range(One Day Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/startTwoRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Starting Range(Two Day Fees)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endTwoRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="61dp"
+                android:ems="10"
+                android:hint="Ending Range(Two Day Fees)"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/gymTypeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:text="Gym Type"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/gymType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5px"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <Button
+                android:id="@+id/filterButton"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="Click to view Gyms by filter" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

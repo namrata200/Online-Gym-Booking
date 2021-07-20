@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/gymImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="15px"
+            android:scaleType="fitCenter"
+
+            />
+
+        <TextView
+            android:id="@+id/gymName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/oneDayfees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/twoDayfees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/oneWeekfees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/oneMonthfees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/oneYearfees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/morningBatchTimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/morningBatchTimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/eveningBatchTimeOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/eveningBatchTimeTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5px"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnDietChart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:text="Click to view Diet Chart" />
+
+    </LinearLayout>
+
+
+</ScrollView>
